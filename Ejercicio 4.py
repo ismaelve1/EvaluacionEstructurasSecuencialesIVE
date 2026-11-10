@@ -15,4 +15,9 @@ print ("centenas:",round(centenas), "decenas:", round(decenas),"unidades", round
 sumadetodos = centenas + decenas + unidades
 print("Suma de las cifras:", round(sumadetodos))
 
-print("numero invertido", unidades, decenas, centenas)
+centenas2 = centenas + 0
+decenas2 = decenas * 10
+unidades2 = unidades * 100
+
+numero2 = centenas2 + decenas2 + unidades2
+print("numero invertido", round(numero2))
