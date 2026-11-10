@@ -1,5 +1,6 @@
 #Ismael Villatoro Elgaz
 #Ejercicio 1: Escribe un programa que pida el precio de un producto sin IVA y muestre el importe del IVA (21 %) y el precio final que debe pagar el cliente.
+
 #con float pregunto el precio sin iva y leo la variable
 precio_Sin_IVA = float(input("Ingrese el precio sin IVA: "))
 
